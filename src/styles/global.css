@@ -1,0 +1,72 @@
+:root {
+    font-family: Barlow, Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: #0f0f0f;
+}
+
+* {
+    text-align: left;
+}
+
+input, button {
+    font-size: 1rem;
+    font-family: Barlow, Arial, sans-serif;
+}
+
+h1 {
+    margin: 4px 0px;
+}
+
+.tag {
+    display: inline-block;
+    border: 1px solid none;
+    border-radius: 5px;
+    background-color: #2B76E3;
+    padding: 0.25rem 0.75rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
+
+.tag.black {
+    background-color: #000C36;
+}
+
+.tag.pending {
+    background-color: #FFAA14;
+    color: #0f0f0f;
+}
+
+.tag.completed {
+    background-color: #29D363;
+    color: #0f0f0f;
+}
+
+.main-action {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0033FF;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.main-action-group-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.home-button {
+    width: 100px;
+}

@@ -1,0 +1,10 @@
+.wo-execution {
+    padding-bottom: 5rem;
+}
+
+.wo-execution-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+.progress {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0.5rem;
+    
+}
+.progress-line {
+    position:absolute;
+    border-top: 1px solid #2B76E3;
+    width: 50%;
+    z-index: -1;
+}
+.node {
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 0.25rem;
+    margin-right: 0.5rem;
+}
+.node.operation {
+    background-color: grey;
+    border: 1px solid grey;
+}
+.node.operation.current {
+    background-color: #2B76E3;
+    border: 1px solid #2B76E3;
+}
+.node.step {
+    background-color: grey;
+    border: 1px solid grey;
+}
+.node.step.current {
+    background-color: black;
+    border: 1px solid black;
+}
